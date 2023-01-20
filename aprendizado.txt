@@ -1,0 +1,43 @@
+terminal: Executa os meus comandos para o pc
+ls: lista oq tem dentro das pastas
+ls ~/pasta: consigo ver oq tem dentro da pasta sem sair de onde estou
+cd: muda minha direção 
+clear: limpar a tela do terminal
+exit: fecha o terminal
+echo: exibir a mensagem na tela
+pwd: serve para exibir onde estou
+cd ..: eu passo o diretorio
+cd -: eu volto um diretorio 
+rm -r: remove a pasta e tudo que tem nela
+mkdir: cria pastas no home
+touch: cria arquivos
+history: exibir historico de comandos
+mktemp: gerar arquivos temporarios
+quando o . estiver antes de qualquer comando, é um arquivo oculto
+cat: exibe o conteudo do arquivo, tbm serve para concatenar
+mv: mover arquivos e diretorios
+cp: copiar arquivos e diretorios
+rm: remove arquivo pelo terminal
+pipe |: serve para direcionar as saidas de um comando para outro comando
+/ : representa os diretorios
+\ : transformar comandos de varias linhas
+cut: seleciona o numero de caracteres  EX: echo "David" | cut -c2 (a)
+head: serve para exibir as primeiras linhas do arquivo  EX: head -n 15 (arquivo)
+head por si só ja exibe as primeiras 10 linhas (ent não precisa usar o -n)
+tail exibe as ultimas linhas do arquivo
+tail -f: serve para monitorar o arquivo
+sleep: permite que o terminal espere durante um tempo para executar um determinado comando
+; é para inserir 2 comandos
+wc: exibe o numero de palavras, caracteres e linhas
+rev: serve para reverter uma sequencia de caracteres
+paste: serve para concatenar em colunas
+sort: feito para organizar uma serie de entradas em ordem alfabeticas
+
+
+Git é um software de versionamento, que funciona de forma distribuida 
+git init da função de iniciar o git
+git add adiciona os arquivos no git
+git commit serve para commitar os arquivos e ficar disponiveis na leitura
+git status mostra o git atual
+git push empurra tudo para o github
+git pull puxa tudo do github para o git 
